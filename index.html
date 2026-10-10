@@ -5,42 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ukraine Cities</title>
   <style>
-    .article {
-      width: 600px;
-      background-color: lightgrey;
-    }
+    nav ul { list-style: none; display: flex; gap: 1rem; padding: 0; }
+    .city { max-width: 600px; background-color: lightgrey; margin-bottom: 1rem; }
+    .city img { max-width: 100%; height: auto; display: block; }
+    .city h2, .city p { padding: 0 1rem; }
+    header { border-bottom: 2px solid #ccc; margin-bottom: 1rem; }
   </style>
 </head>
 <body>
   <header>
     <h1>Explore the Cities of Ukraine</h1>
-    <hr>
+    <nav aria-label="Cities">
+      <ul>
+        <li><a href="#kyiv">Kyiv</a></li>
+        <li><a href="#lviv">Lviv</a></li>
+        <li><a href="#odesa">Odesa</a></li>
+      </ul>
+    </nav>
   </header>
-  <nav>
-      <a href="#kyiv">Kyiv</a> |
-      <a href="#lviv">Lviv</a> |
-      <a href="#odesa">Odesa</a>
-    </ul>
-  </nav><br>
-<article class="article" id="kyiv">
+<main>
+<article class="city" id="kyiv">
   <h2>Kyiv</h2>
-  <img src="images/kyiv.jpg" alt="Kyiv Cityscape" width="600">
+  <img src="images/kyiv.jpg" alt="Kyiv Cityscape" width="600" height="400">
   <p>Kyiv, the capital of Ukraine, is located in the north-central part of the country. It is the largest city in Ukraine and serves as the political, economic, and cultural center of the nation. Kyiv has a rich history that dates back over 1,400 years and is known for its stunning architecture, including the iconic Saint Sophia Cathedral and the Kyiv Pechersk Lavra. The city is also a hub for education and research, with numerous universities and institutions. Kyiv's vibrant nightlife, diverse culinary scene, and numerous parks and green spaces make it a popular destination for both locals and tourists.</p>
 </article>
-<br>
-<article class="article" id="lviv">
+<article class="city" id="lviv">
   <h2>Lviv</h2>
-  <img src="images/lviv.jpg" alt="Lviv City Hall" width="600">
+  <img src="images/lviv.jpg" alt="Lviv City Hall" width="600" height="400" loading="lazy">
   <p>Lviv is a city in western Ukraine, on the edge of the Carpathian Mountains. It is the largest city in western Ukraine and the seventh-largest city in the country. Lviv is known for its rich history, cultural heritage, and vibrant arts scene. The city has a well-preserved historical center, which is a UNESCO World Heritage Site, and is home to numerous museums, theaters, and galleries. Lviv is also famous for its coffee culture, with many cafes and coffeehouses scattered throughout the city.</p>
 </article>
-<br>
-<article class="article" id="odesa">
+<article class="city" id="odesa">
   <h2>Odesa</h2>
-  <img src="images/odesa.jpg" alt="Odesa Beach" width="600">
+  <img src="images/odesa.jpg" alt="Odesa Beach" width="600" height="400" loading="lazy">
   <p>Odesa is a port city on the Black Sea in southern Ukraine. It is the fourth-largest city in the country and serves as an important cultural and economic center. Odesa is known for its beautiful beaches, historic architecture, and vibrant nightlife. The city has a rich history, with influences from various cultures, including Russian, Turkish, and Jewish. Odesa is also famous for its annual film festival and its unique humor, which is reflected in the city's many theaters and comedy clubs.</p>
 </article>
-<footer>
-  <p>&copy; 2024 Explore Ukraine. All rights reserved.</p>
-</footer>
+</main>
+  <footer>
+    <p>&copy; 2026 Explore Ukraine. All rights reserved.</p>
+  </footer>
 </body>
 </html>
