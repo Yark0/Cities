@@ -1,0 +1,40 @@
+      ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        padding: 0;
+      }
+      .city {
+        max-width: 600px;
+        background-color: #fbfaf6;
+        margin-bottom: 1rem;
+        height: min-content;
+      }
+      .city img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+      .city h2,
+      .city p {
+        padding: 0 1rem;
+      }
+      header {
+        border-bottom: 2px solid #ccc;
+        margin-bottom: 1rem;
+      }
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(5, minmax(0,1fr));
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fbfaf6;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 1rem;
+}
+
