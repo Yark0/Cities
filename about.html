@@ -4,6 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me | My Website</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --paper: #f5f4ef;
+      }
+      body {
+        margin: 10px;
+        background-color: var(--paper);
+      }
+      h1 {
+        font-size: clamp(1.5rem, 3vw, 2.25rem);
+        margin: 0;
+      }
+      h2 {
+        font-size: clamp(1.25rem, 2vw, 1.75rem);
+        padding-block: 0.5rem;
+        margin: 0;
+      }
+      p {
+        font-size: clamp(1rem, 1.5vw, 1.25rem);
+        max-width: 70ch;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -26,8 +49,9 @@
       <section id="about">
         <h2>About Me</h2>
         <p>
-          My name is Yaroslav. &#x1F600; I am a web developer with a passion for creating interactive and
-          user-friendly websites. I enjoy learning new technologies and improving my skills.
+          My name is Yaroslav. &#x1F600; I am a web developer with a passion for creating
+          interactive and user-friendly websites. I enjoy learning new technologies and improving my
+          skills.
         </p>
       </section>
       <section id="projects">
